@@ -7,3 +7,10 @@ puts "----------"
 # Your code goes here ...
 @store1 = Store.find(id=1)
 puts @store1[:name]
+
+@store2 = Store.find(id=2)
+puts @store2[:name]
+
+@store1.name = "New Burnaby"
+puts @store1[:name]
+
